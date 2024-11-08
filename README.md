@@ -1,27 +1,44 @@
-# AngularBlog
+# Marvel Blog
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.13.
+Este projeto é um blog temático sobre o universo Marvel, desenvolvido em Angular. Ele foi criado com o objetivo de exibir postagens, notícias e temas relacionados ao universo Marvel, com uma interface interativa e responsiva.
 
-## Development server
+## Funcionalidades
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Exibição de postagens sobre o universo Marvel
+- Navegação entre diferentes categorias e temas
+- Interface responsiva com recarregamento dinâmico de conteúdo
+- Sistema modular para fácil expansão e integração de novos conteúdos
 
-## Code scaffolding
+## Tecnologias Utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Angular CLI** 14.2.13
+- **Karma** para testes
+- **Node.js** para gerenciamento de dependências
 
-## Build
+## Pré-requisitos
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Para executar o projeto localmente, é necessário ter:
 
-## Running unit tests
+- **Node.js** (versão 14 ou superior)
+- **Angular CLI** (instalado globalmente com `npm install -g @angular/cli`)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Instalação
 
-## Running end-to-end tests
+1. Clone o repositório:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+   ```bash
+   git clone https://github.com/seu-usuario/marvel-blog.git
+A aplicação estará disponível em `http://localhost:4200/`. O servidor recarrega automaticamente ao detectar alterações nos arquivos de origem.
 
-## Further help
+## Scripts Disponíveis
+- `ng serve` - Executa o servidor de desenvolvimento
+- `ng build` - Compila o projeto para produção
+- `ng test` - Executa os testes automatizados com Karma
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Estrutura de Pastas
+- `src/app`: Contém os componentes, serviços e módulos principais da aplicação
+- `src/assets`: Arquivos estáticos, como imagens e estilos
+- `src/environments`: Configurações de ambiente para desenvolvimento e produção
+
+## Contribuição
+Sinta-se à vontade para enviar PRs ou sugestões para aprimorar o projeto!
